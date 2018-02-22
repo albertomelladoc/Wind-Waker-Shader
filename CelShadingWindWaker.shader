@@ -59,7 +59,7 @@ Shader "Custom/CelShadingWindWaker" {
 
 		half4 c;
 
-		c.rgb = s.Albedo * _LightColor0.rgb * (cel + 0.3)/2.5 * atten; // So it does not look too lit
+		c.rgb = (cel + 0.3)/2.5  * s.Albedo * _LightColor0.rgb * atten; // So it does not look too lit
 		c.a = s.Alpha;
 
 		return c;
