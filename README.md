@@ -1,4 +1,5 @@
-# Blurred-Cel-Shading
+# Wind Waker Shader
+
 Cel Shading of two blurred thresholds.
 
 Author: Alberto Mellado Cruz
